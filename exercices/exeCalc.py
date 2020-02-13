@@ -6,13 +6,13 @@ import operator
 print('Bienvenue dans ma petite calculatrice')
 
 # Store l'input du premier nombre en int
-num1 = int(input("Entrez un premier nombre"))
+num1 = int(input("Entrez un premier nombre : "))
 
 # Store l'input de l'opérateur en string
-ops = input("Entrez un opérateur mathématique (+, -, *, /)")
+ops = input("Entrez un opérateur mathématique (+, -, *, /) : ")
 
 # Store l'input du 2e nombre en int
-num2 = int(input("Entrez un deuxième nombre"))
+num2 = int(input("Entrez un deuxième nombre : "))
 
 # Associe le string de l'opérateur à sa fonction mathématique appropriée
 math = {
