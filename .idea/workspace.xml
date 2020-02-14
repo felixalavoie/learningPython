@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4b5c79-2f2f-40e8-8db8-7c60c7ef7b2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/advent-of-code/03/day3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,8 @@
       <workItem from="1581424720031" duration="522000" />
       <workItem from="1581528945643" duration="145000" />
       <workItem from="1581552423912" duration="13721000" />
-      <workItem from="1581615909133" duration="2537000" />
+      <workItem from="1581615909133" duration="2825000" />
+      <workItem from="1581639512217" duration="7042000" />
     </task>
     <servers />
   </component>
