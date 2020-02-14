@@ -1,6 +1,7 @@
 import random
 import curses
 
+input('Le jeu se joue avec les touches WASD, appuyez sur ENTER pour débuter')
 
 # Initialisation de curses
 crs = curses.initscr()
@@ -50,7 +51,7 @@ while True:
 
     # Vérifie si le joueur à perdu -------------------------------------------------------------
     # Si le joueur sort du jeux
-    if snake[0][0] in [0, screen_height] or snake[0][1] in [0, screen_width] :
+    if snake[0][0] in [0, screen_height-1] or snake[0][1] in [0, screen_width-1] :
         curses.endwin()
         print('Vous avez perdu')
         quit()
@@ -86,7 +87,7 @@ while True:
         # Initialise une nouvelle pomme
         while apple is None:
             new_apple = [
-                random.randint(5, screen_height-5),
+                random.randint(5, screen_height - 5),
                 random.randint(5, screen_width - 5)
             ]
             #Vérifie que la nouvelle pomme n'est pas dans le snake, sinon repart l'init
