@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4b5c79-2f2f-40e8-8db8-7c60c7ef7b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advent-of-code/02/day2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercices/exeCalc.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercices/exeCalc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,8 @@
       <workItem from="1581356030016" duration="10000" />
       <workItem from="1581424720031" duration="522000" />
       <workItem from="1581528945643" duration="145000" />
-      <workItem from="1581552423912" duration="7849000" />
+      <workItem from="1581552423912" duration="13721000" />
+      <workItem from="1581615909133" duration="2013000" />
     </task>
     <servers />
   </component>
@@ -73,6 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="19" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581568531614">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="19" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.943@0.23.1680.943" timestamp="1581568531614" />
     <state x="63" y="113" key="SettingsEditor" timestamp="1581529079749">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
@@ -81,5 +87,20 @@
       <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="519" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.943@0.23.1680.943" timestamp="1581011988464" />
+    <state x="219" y="219" width="670" height="676" key="search.everywhere.popup" timestamp="1581571539928">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="219" y="219" width="670" height="676" key="search.everywhere.popup/0.23.1680.943@0.23.1680.943" timestamp="1581571539928" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/snake/test.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
